@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>trm</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2008-10-21T06:55:39Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2009-03-22T03:21:12Z</date>
+			<key>modificationDate</key>
+			<date>2009-03-23T20:41:59Z</date>
+			<key>plainText</key>
+			<string>do shell script "curl --basic -u username:password http://tr.im/api/trim_url.xml?url=`pbpaste` | tr '&gt;' '\n' | tr '&lt;' '\n' | grep -m 1 -A 1 url | tail -1"</string>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>AB894F32-1B03-4073-8EE6-ED00B76C6AAE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string></string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-03-22T04:52:23Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2009-03-22T04:52:35Z</date>
+			<key>plainText</key>
+			<string>do shell script "curl --basic -u username:password 
+http://tr.im/api/trim_url.xml?url=pbpaste 
+| tr '&gt;' 'n' | tr '&lt;' 'n' | grep -m 1 -A 1 url | tail -1"</string>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C9A2DFA2-163D-40C3-999A-EF9378289F5E</string>
+		</dict>
+	</array>
+</dict>
+</plist>
